@@ -29,13 +29,13 @@
     Nullability(yes/no)
     Collation
 
- + sp_help returns automatically-incrementing idendity columns
++ sp_help returns automatically-incrementing idendity columns
      column name
      seed value
      increment value
      "Not for Replication" property (true/false)
 
- + also includes information on GUID (rowguidcol global unique identifier) column information
++ also includes information on GUID (rowguidcol global unique identifier) column information
 
 ## Constraint sp_help Information
 ---------------------------------
@@ -47,6 +47,14 @@
 + Constraint status (enabled, disabled, N/A) for check or foreign key
 + Status for replication
 + Constrait key columns
+
+## Catalog Views
+----------------
+
++ Constraints, tables, sequence objects, sp's, functions, triggers, views and more
+
+
+
 
 
 
